@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:orientation="vertical"
+    android:background="@color/toolbar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/thumbfavo"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:src="@drawable/mot"
+            android:scaleType="centerCrop"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="10"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/titlefavo"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:layout_marginLeft="5dp"
+                android:text="MÁI ẤM LẠ KỲ CỦA CÔ PEREGRINE"
+                android:textColor="@color/mautieude"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tacgiafavo"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:layout_marginLeft="5dp"
+                android:text="Miss Peregrine's Home for Peculiar Children (2016)"
+                android:textColor="@color/amxanh"
+                android:textSize="15sp" />
+            <RatingBar
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="150dp"
+                android:numStars="5"
+                android:rating="4"
+                android:stepSize="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

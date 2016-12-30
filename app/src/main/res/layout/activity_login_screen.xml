@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.luxkiz1.movie_projet.LoginScreenActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="190dp"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/iconuser"
+            android:text="Username"
+            android:layout_marginTop="20dp"
+            android:textColor="#AFDCEC"
+            android:focusable="false"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/passicon"
+            android:text="Password"
+            android:textColor="#AFDCEC"
+            android:focusable="false"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/dangnhap"
+            android:text="Đăng Nhập"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#AFDCEC"
+            android:text="hoặc"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/loginface"
+            android:text="Đăng Nhập Bằng Facebook"
+            android:onClick="ClickButtonFacebook"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#AFDCEC"
+        android:text="Bạn chưa có tài khoản ? ĐĂNG KÝ"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:progressBarStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:indeterminateDrawable="@drawable/customprocess"
+        android:visibility="gone" />
+</RelativeLayout>

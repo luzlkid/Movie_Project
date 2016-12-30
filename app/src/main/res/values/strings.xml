@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MOVIENS</string>
+    <string name="facebook_app_id">325455501173278</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="backdrop_title">LOVE MOVIES</string>
+    <string name="backdrop_subtitle">Top những bộ phim bom tấn</string>
+</resources>

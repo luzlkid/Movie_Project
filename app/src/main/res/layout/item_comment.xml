@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/toolbar">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="Trần Tâm"
+                android:textColor="@color/amxanh"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Mái Ấm Lạ Kỳ Của Cô Peregrine kể về cuộc phiêu lưu đến một vùng đất lạ kỳ của Jacob Portman. Tại đây, Jacob gặp được cô Peregrine và những đứa trẻ có khả năng dị thường cô đang che chở. Nơi ấy có cô gái tóc đỏ với đôi tay giữ lửa,"
+                android:textColor="@color/amxanh"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

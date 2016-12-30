@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#181E2B</color>
+    <color name="colorPrimaryDark">#181E2B</color>
+    <color name="colorAccent">#181E2B</color>
+    <color name="toolbar">#2A3041</color>
+    <color name="black_overlay">#4E607D</color>
+    <color name="amxanh">#FFFFFF</color>
+    <color name="white">#F2FAFF</color>
+    <color name="yellow">#FCF54C</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+    <color name="mautieude">#DACB47</color>
+    <color name="maudiem">#EE2C2C</color>
+    <color name="mautrangthai">#5CACEE</color>
+    <color name="pressbutton">#635BA2</color>
+    <color name="unpressbutton">#2D1E69</color>
+    <color name="vv">#2E3E55</color>
+</resources>
